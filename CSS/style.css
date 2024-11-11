@@ -25,7 +25,6 @@ img {
 .section2 {
     margin: 40px 20px 0 20px;
 }
-
 .form1 {
     display: flex;
     gap: 10px;
@@ -33,14 +32,7 @@ img {
 }
 input {
     margin: 10px 0;
-}
-
-
-
-
-
-    
-
+}  
 button {
     background-color: rgb(21, 197, 197);
     padding: 5px 20px;
