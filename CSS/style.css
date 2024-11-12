@@ -33,7 +33,7 @@ img {
 input {
     margin: 10px 0;
 }  
-button {
+.btn {
     background-color: rgb(21, 197, 197);
     padding: 5px 20px;
     border-radius: 5px;
