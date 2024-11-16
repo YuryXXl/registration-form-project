@@ -74,7 +74,6 @@ input#firstname,#lastname,#email,#password {
     }
     input#firstname,#lastname {
         width: 160%;
-        padding: 0;
 }
 
 
