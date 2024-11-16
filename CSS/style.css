@@ -64,16 +64,23 @@ input#firstname,#lastname,#email,#password {
 @media (max-width: 500px) {
     .container {
         flex-wrap: wrap;
+        padding: 0;
     }
     .form1 {
         flex-wrap: wrap;
     }
     input#email,#password {
-        width: 80%;
+        width: 8
+        100%;
         padding: 0;
     }
     input#firstname,#lastname {
-        width: 160%;
+        width: 140%;
+    }
+    .section {
+        margin: 10px;
+        border-radius: 10px;
+    }
 }
 
 
