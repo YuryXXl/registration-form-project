@@ -7,8 +7,8 @@ body {
 }
 img {
     
-    width: 100px;
-    margin: 30px 0px 20px 15px;
+    width: 120px;
+    margin: 30px 0px 20px 0;
 }
 .container {
     max-width: 800px;
@@ -21,18 +21,38 @@ img {
 .section1 {
     background-color: rgb(242, 239, 239);
     padding: 0 30px 0 10px;
+    width: 40%;
 }
 .section2 {
-    margin: 40px 20px 0 20px;
+    width: 50%;
+    margin: 30px 15px 0px 15px;
 }
 .form1 {
     display: flex;
     gap: 10px;
-    margin: 10px 0;
+    margin: 20px 0;
 }
-input {
-    margin: 10px 0;
-}  
+input#firstname,#lastname,#email,#password {
+    width: 100%;
+    padding: 0;
+} 
+.checkbox {
+    display: flex;
+    gap: 5px;
+    margin: 20px 0 10px 0;
+
+}
+.firstname,.lastname {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 15px;
+}
+.form2 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
 .btn {
     background-color: rgb(21, 197, 197);
     padding: 5px 20px;
@@ -40,6 +60,21 @@ input {
     border: none;
     color: white;
     margin: 30px 0;
+}
+@media (max-width: 500px) {
+    .container {
+        flex-wrap: wrap;
+    }
+    .form1 {
+        flex-wrap: wrap;
+    }
+    input#email,#password {
+        width: 80%;
+        padding: 0;
+    }
+    input#firstname,#lastname {
+        width: 160%;
+        padding: 0;
 }
 
 
